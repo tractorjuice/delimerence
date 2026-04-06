@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-06T13:54:59.559Z",
+  "generated": "2026-04-06T14:14:51.565Z",
   "repository": {
     "name": "delimerence"
   },
@@ -745,6 +745,60 @@
           "title": "Stakeholder Analysis",
           "category": "Discovery",
           "documentId": "ARC-001-STKE-v1.0"
+        },
+        {
+          "path": "projects/001-delimerence/ARC-001-TRAC-v1.0.md",
+          "title": "Traceability Matrix",
+          "category": "Governance",
+          "documentId": "ARC-001-TRAC-v1.0"
+        },
+        {
+          "path": "projects/001-delimerence/ARC-001-TRAC-v1.1.md",
+          "title": "Traceability Matrix",
+          "category": "Governance",
+          "documentId": "ARC-001-TRAC-v1.1"
+        }
+      ],
+      "decisions": [
+        {
+          "path": "projects/001-delimerence/decisions/ARC-001-ADR-001-v1.0.md",
+          "title": "Architecture Decision Record: LLM Foundation Model Selection",
+          "documentId": "ARC-001-ADR-001-v1.0"
+        },
+        {
+          "path": "projects/001-delimerence/decisions/ARC-001-ADR-002-v1.0.md",
+          "title": "ADR-002: Enforce Anti-Dependency Architecture Through Server-Side Structural Constraints",
+          "documentId": "ARC-001-ADR-002-v1.0"
+        },
+        {
+          "path": "projects/001-delimerence/decisions/ARC-001-ADR-003-v1.0.md",
+          "title": "ADR-003: Implement Defence-in-Depth LLM Safety Layer Using NeMo Guardrails and Custom Clinical Filters",
+          "documentId": "ARC-001-ADR-003-v1.0"
+        },
+        {
+          "path": "projects/001-delimerence/decisions/ARC-001-ADR-004-v1.0.md",
+          "title": "ADR-004: Adopt Phased Launch Strategy to De-Risk MHRA Medical Device Classification",
+          "documentId": "ARC-001-ADR-004-v1.0"
+        },
+        {
+          "path": "projects/001-delimerence/decisions/ARC-001-ADR-005-v1.0.md",
+          "title": "ADR-005: Use Supabase Auth for User Authentication and Identity Management",
+          "documentId": "ARC-001-ADR-005-v1.0"
+        },
+        {
+          "path": "projects/001-delimerence/decisions/ARC-001-ADR-006-v1.0.md",
+          "title": "ADR-006: Use Supabase PostgreSQL with Row Level Security for Data Persistence and UK Data Residency",
+          "documentId": "ARC-001-ADR-006-v1.0"
+        },
+        {
+          "path": "projects/001-delimerence/decisions/ARC-001-ADR-007-v1.0.md",
+          "title": "ADR-007: Implement LLM-Driven Phase Assessment with Structured Output Validation",
+          "documentId": "ARC-001-ADR-007-v1.0"
+        },
+        {
+          "path": "projects/001-delimerence/decisions/ARC-001-ADR-008-v1.0.md",
+          "title": "ADR-008: Deploy as Next.js PWA on AWS Fargate (eu-west-2) with Serverless Container Architecture",
+          "documentId": "ARC-001-ADR-008-v1.0"
         }
       ],
       "research": [
@@ -816,6 +870,106 @@
         "createdDate": "2026-04-06",
         "lastModified": "2026-04-06"
       },
+      "ARC-001-TRAC-v1.0": {
+        "type": "TRAC",
+        "project": "001-delimerence",
+        "path": "projects/001-delimerence/ARC-001-TRAC-v1.0.md",
+        "title": "Requirements Traceability Matrix: DeLimerence",
+        "status": "DRAFT",
+        "severity": "HIGH",
+        "createdDate": "2026-04-06",
+        "lastModified": "2026-04-06"
+      },
+      "ARC-001-TRAC-v1.1": {
+        "type": "TRAC",
+        "project": "001-delimerence",
+        "path": "projects/001-delimerence/ARC-001-TRAC-v1.1.md",
+        "title": "Requirements Traceability Matrix: DeLimerence",
+        "status": "DRAFT",
+        "severity": "HIGH",
+        "createdDate": "2026-04-06",
+        "lastModified": "2026-04-06"
+      },
+      "ARC-001-ADR-001-v1.0": {
+        "type": "ADR",
+        "project": "001-delimerence",
+        "path": "projects/001-delimerence/decisions/ARC-001-ADR-001-v1.0.md",
+        "title": "Architecture Decision Record: LLM Foundation Model Selection",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-04-06",
+        "lastModified": "2026-04-06"
+      },
+      "ARC-001-ADR-002-v1.0": {
+        "type": "ADR",
+        "project": "001-delimerence",
+        "path": "projects/001-delimerence/decisions/ARC-001-ADR-002-v1.0.md",
+        "title": "ADR-002: Enforce Anti-Dependency Architecture Through Server-Side Structural Constraints",
+        "status": "PROPOSED",
+        "severity": "MEDIUM",
+        "createdDate": "2026-04-06",
+        "lastModified": "2026-04-06"
+      },
+      "ARC-001-ADR-003-v1.0": {
+        "type": "ADR",
+        "project": "001-delimerence",
+        "path": "projects/001-delimerence/decisions/ARC-001-ADR-003-v1.0.md",
+        "title": "ADR-003: Implement Defence-in-Depth LLM Safety Layer Using NeMo Guardrails and Custom Clinical Filters",
+        "status": "PROPOSED",
+        "severity": "MEDIUM",
+        "createdDate": "2026-04-06",
+        "lastModified": "2026-04-06"
+      },
+      "ARC-001-ADR-004-v1.0": {
+        "type": "ADR",
+        "project": "001-delimerence",
+        "path": "projects/001-delimerence/decisions/ARC-001-ADR-004-v1.0.md",
+        "title": "ADR-004: Adopt Phased Launch Strategy to De-Risk MHRA Medical Device Classification",
+        "status": "Accepted",
+        "severity": "MEDIUM",
+        "createdDate": "2026-04-06",
+        "lastModified": "2026-04-06"
+      },
+      "ARC-001-ADR-005-v1.0": {
+        "type": "ADR",
+        "project": "001-delimerence",
+        "path": "projects/001-delimerence/decisions/ARC-001-ADR-005-v1.0.md",
+        "title": "ADR-005: Use Supabase Auth for User Authentication and Identity Management",
+        "status": "PROPOSED",
+        "severity": "MEDIUM",
+        "createdDate": "2026-04-06",
+        "lastModified": "2026-04-06"
+      },
+      "ARC-001-ADR-006-v1.0": {
+        "type": "ADR",
+        "project": "001-delimerence",
+        "path": "projects/001-delimerence/decisions/ARC-001-ADR-006-v1.0.md",
+        "title": "ADR-006: Use Supabase PostgreSQL with Row Level Security for Data Persistence and UK Data Residency",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-04-06",
+        "lastModified": "2026-04-06"
+      },
+      "ARC-001-ADR-007-v1.0": {
+        "type": "ADR",
+        "project": "001-delimerence",
+        "path": "projects/001-delimerence/decisions/ARC-001-ADR-007-v1.0.md",
+        "title": "ADR-007: Implement LLM-Driven Phase Assessment with Structured Output Validation",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-04-06",
+        "lastModified": "2026-04-06"
+      },
+      "ARC-001-ADR-008-v1.0": {
+        "type": "ADR",
+        "project": "001-delimerence",
+        "path": "projects/001-delimerence/decisions/ARC-001-ADR-008-v1.0.md",
+        "title": "ADR-008: Deploy as Next.js PWA on AWS Fargate (eu-west-2) with Serverless Container Architecture",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-04-06",
+        "lastModified": "2026-04-06"
+      },
       "ARC-001-RSCH-v1.0": {
         "type": "RSCH",
         "project": "001-delimerence",
@@ -846,6 +1000,261 @@
       {
         "from": "ARC-001-RISK-v1.0",
         "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.0",
+        "to": "ARC-001-RSCH",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-RSCH",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-ADR-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-ADR-002",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-ADR-003",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-ADR-004",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-ADR-005",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-ADR-006",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-ADR-007",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-ADR-008",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-TRAC-v1.1",
+        "to": "ARC-001-ADR",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-001-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-001-v1.0",
+        "to": "ARC-001-RSCH",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-001-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-001-v1.0",
+        "to": "ARC-001-TRAC",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-002-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-002-v1.0",
+        "to": "ARC-001-TRAC",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-002-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-002-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-003-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-003-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-003-v1.0",
+        "to": "ARC-001-TRAC",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-003-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-004-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-004-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-004-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-005-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-005-v1.0",
+        "to": "ARC-001-RSCH",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-005-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-005-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-006-v1.0",
+        "to": "ARC-001-RSCH",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-006-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-006-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-006-v1.0",
+        "to": "ARC-001-TRAC",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-006-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-007-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-007-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-007-v1.0",
+        "to": "ARC-001-TRAC",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-007-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-007-v1.0",
+        "to": "ARC-001-ADR-003",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-008-v1.0",
+        "to": "ARC-001-RSCH",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-008-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-008-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-008-v1.0",
+        "to": "ARC-001-TRAC",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ADR-008-v1.0",
+        "to": "ARC-001-STKE",
         "type": "references"
       },
       {

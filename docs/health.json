@@ -1,37 +1,29 @@
 {
-  "generated": "2026-04-06T13:54:38.728Z",
+  "generated": "2026-04-06T14:09:43.661Z",
   "scanned": {
     "projects": 1,
-    "artifacts": 3
+    "artifacts": 12
   },
   "summary": {
     "HIGH": 0,
-    "MEDIUM": 1,
+    "MEDIUM": 0,
     "LOW": 0,
-    "total": 1
+    "total": 0
   },
   "byType": {
     "STALE-RSCH": 0,
     "FORGOTTEN-ADR": 0,
     "UNRESOLVED-COND": 0,
     "STALE-EXT": 0,
-    "ORPHAN-REQ": 1,
+    "ORPHAN-REQ": 0,
     "MISSING-TRACE": 0,
     "VERSION-DRIFT": 0
   },
   "projects": [
     {
       "id": "001-delimerence",
-      "artifacts": 3,
-      "findings": [
-        {
-          "severity": "MEDIUM",
-          "rule": "ORPHAN-REQ",
-          "file": "ARC-001-REQ-v1.0.md",
-          "message": "Total requirements: 50\n  Requirements not referenced by any ADR: 50\n  Examples: BR-001, BR-002, BR-003, BR-004, BR-005 (+45 more)",
-          "action": "Review whether these requirements need architectural decisions documented as ADRs"
-        }
-      ]
+      "artifacts": 12,
+      "findings": []
     }
   ]
 }
