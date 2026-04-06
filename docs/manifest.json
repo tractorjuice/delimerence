@@ -1,9 +1,9 @@
 {
-  "generated": "2026-04-06T14:14:51.565Z",
+  "generated": "2026-04-06T14:59:37.145Z",
   "repository": {
     "name": "delimerence"
   },
-  "defaultDocument": "",
+  "defaultDocument": "projects/000-global/ARC-000-PRIN-v1.0.md",
   "guides": [
     {
       "path": "docs/guides/adr.md",
@@ -650,7 +650,15 @@
       "commandCount": 5
     }
   ],
-  "global": [],
+  "global": [
+    {
+      "path": "projects/000-global/ARC-000-PRIN-v1.0.md",
+      "title": "Architecture Principles",
+      "category": "Architecture",
+      "documentId": "ARC-000-PRIN-v1.0",
+      "isDefault": true
+    }
+  ],
   "typeCategories": {
     "REQ": "Discovery",
     "STKE": "Discovery",
@@ -728,6 +736,24 @@
       "id": "001-delimerence",
       "name": "Delimerence",
       "documents": [
+        {
+          "path": "projects/001-delimerence/ARC-001-ANAL-v1.0.md",
+          "title": "Analysis Report",
+          "category": "Governance",
+          "documentId": "ARC-001-ANAL-v1.0"
+        },
+        {
+          "path": "projects/001-delimerence/ARC-001-DPIA-v1.0.md",
+          "title": "Data Protection Impact Assessment",
+          "category": "Compliance",
+          "documentId": "ARC-001-DPIA-v1.0"
+        },
+        {
+          "path": "projects/001-delimerence/ARC-001-PRIN-COMP-v1.0.md",
+          "title": "Principles Compliance",
+          "category": "Governance",
+          "documentId": "ARC-001-PRIN-COMP-v1.0"
+        },
         {
           "path": "projects/001-delimerence/ARC-001-REQ-v1.0.md",
           "title": "Requirements",
@@ -840,6 +866,46 @@
   ],
   "dependencyGraph": {
     "nodes": {
+      "ARC-000-PRIN-v1.0": {
+        "type": "PRIN",
+        "project": "000-global",
+        "path": "projects/000-global/ARC-000-PRIN-v1.0.md",
+        "title": "Enterprise Architecture Principles: DeLimerence",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-04-06",
+        "lastModified": "2026-04-06"
+      },
+      "ARC-001-ANAL-v1.0": {
+        "type": "ANAL",
+        "project": "001-delimerence",
+        "path": "projects/001-delimerence/ARC-001-ANAL-v1.0.md",
+        "title": "Architecture Governance Analysis Report: DeLimerence",
+        "status": "DRAFT",
+        "severity": "HIGH",
+        "createdDate": "2026-04-06",
+        "lastModified": "2026-04-06"
+      },
+      "ARC-001-DPIA-v1.0": {
+        "type": "DPIA",
+        "project": "001-delimerence",
+        "path": "projects/001-delimerence/ARC-001-DPIA-v1.0.md",
+        "title": "Data Protection Impact Assessment: DeLimerence",
+        "status": "DRAFT",
+        "severity": "HIGH",
+        "createdDate": "2026-04-06",
+        "lastModified": "2026-04-06"
+      },
+      "ARC-001-PRIN-COMP-v1.0": {
+        "type": "PRIN-COMP",
+        "project": "001-delimerence",
+        "path": "projects/001-delimerence/ARC-001-PRIN-COMP-v1.0.md",
+        "title": "Principles Compliance Assessment: DeLimerence",
+        "status": "DRAFT",
+        "severity": "HIGH",
+        "createdDate": "2026-04-06",
+        "lastModified": "2026-04-06"
+      },
       "ARC-001-REQ-v1.0": {
         "type": "REQ",
         "project": "001-delimerence",
@@ -982,6 +1048,196 @@
       }
     },
     "edges": [
+      {
+        "from": "ARC-000-PRIN-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-000-PRIN-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-000-PRIN-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-000-PRIN-v1.0",
+        "to": "ARC-001-ANAL",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ANAL-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ANAL-v1.0",
+        "to": "ARC-001-TRAC",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ANAL-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ANAL-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ANAL-v1.0",
+        "to": "ARC-000-PRIN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ANAL-v1.0",
+        "to": "ARC-001-DATA",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ANAL-v1.0",
+        "to": "ARC-001-RSCH",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ANAL-v1.0",
+        "to": "ARC-001-ADR-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ANAL-v1.0",
+        "to": "ARC-001-ADR-002",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ANAL-v1.0",
+        "to": "ARC-001-ADR-003",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ANAL-v1.0",
+        "to": "ARC-001-ADR-004",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ANAL-v1.0",
+        "to": "ARC-001-ADR-005",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ANAL-v1.0",
+        "to": "ARC-001-ADR-006",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ANAL-v1.0",
+        "to": "ARC-001-ADR-007",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-ANAL-v1.0",
+        "to": "ARC-001-ADR-008",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-DPIA-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-DPIA-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-DPIA-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-DPIA-v1.0",
+        "to": "ARC-001-ADR-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-DPIA-v1.0",
+        "to": "ARC-001-ADR-002",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-DPIA-v1.0",
+        "to": "ARC-001-ADR-003",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-DPIA-v1.0",
+        "to": "ARC-001-ADR-005",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-DPIA-v1.0",
+        "to": "ARC-001-ADR-006",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-DPIA-v1.0",
+        "to": "ARC-001-ADR-007",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-DPIA-v1.0",
+        "to": "ARC-001-ADR-008",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-DPIA-v1.0",
+        "to": "ARC-000-PRIN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-PRIN-COMP-v1.0",
+        "to": "ARC-001-PRIN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-PRIN-COMP-v1.0",
+        "to": "ARC-000-PRIN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-PRIN-COMP-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-PRIN-COMP-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-PRIN-COMP-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-PRIN-COMP-v1.0",
+        "to": "ARC-001-RSCH",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-PRIN-COMP-v1.0",
+        "to": "ARC-001-TRAC",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-PRIN-COMP-v1.0",
+        "to": "ARC-001-DATA",
+        "type": "references"
+      },
       {
         "from": "ARC-001-REQ-v1.0",
         "to": "ARC-001-STKE",

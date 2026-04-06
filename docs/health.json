@@ -1,8 +1,8 @@
 {
-  "generated": "2026-04-06T14:09:43.661Z",
+  "generated": "2026-04-06T14:58:33.369Z",
   "scanned": {
     "projects": 1,
-    "artifacts": 12
+    "artifacts": 16
   },
   "summary": {
     "HIGH": 0,
@@ -22,7 +22,7 @@
   "projects": [
     {
       "id": "001-delimerence",
-      "artifacts": 12,
+      "artifacts": 16,
       "findings": []
     }
   ]
