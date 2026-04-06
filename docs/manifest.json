@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-06T12:49:59.596Z",
+  "generated": "2026-04-06T13:14:19.689Z",
   "repository": {
     "name": "delimerence"
   },
@@ -738,6 +738,41 @@
           "category": "Discovery",
           "documentId": "ARC-001-STKE-v1.0"
         }
+      ],
+      "research": [
+        {
+          "path": "projects/001-delimerence/research/ARC-001-RSCH-v1.0.md",
+          "title": "Technology and Service Research: DeLimerence",
+          "documentId": "ARC-001-RSCH-v1.0"
+        }
+      ],
+      "vendorProfiles": [
+        {
+          "path": "projects/001-delimerence/vendors/anthropic-profile.md",
+          "title": "Anthropic"
+        },
+        {
+          "path": "projects/001-delimerence/vendors/aws-profile.md",
+          "title": "Aws"
+        },
+        {
+          "path": "projects/001-delimerence/vendors/supabase-profile.md",
+          "title": "Supabase"
+        }
+      ],
+      "techNotes": [
+        {
+          "path": "projects/001-delimerence/tech-notes/anti-dependency-architecture.md",
+          "title": "Tech Note: Anti-Dependency Architecture"
+        },
+        {
+          "path": "projects/001-delimerence/tech-notes/llm-safety-guardrails.md",
+          "title": "Tech Note: LLM Safety Guardrails"
+        },
+        {
+          "path": "projects/001-delimerence/tech-notes/uk-mhra-digital-mental-health.md",
+          "title": "Tech Note: UK MHRA Regulation of Digital Mental Health Technologies"
+        }
       ]
     }
   ],
@@ -762,12 +797,27 @@
         "severity": "LOW",
         "createdDate": "2026-04-06",
         "lastModified": "2026-04-06"
+      },
+      "ARC-001-RSCH-v1.0": {
+        "type": "RSCH",
+        "project": "001-delimerence",
+        "path": "projects/001-delimerence/research/ARC-001-RSCH-v1.0.md",
+        "title": "Technology and Service Research: DeLimerence",
+        "status": "DRAFT",
+        "severity": "LOW",
+        "createdDate": "2026-04-06",
+        "lastModified": "2026-04-06"
       }
     },
     "edges": [
       {
         "from": "ARC-001-REQ-v1.0",
         "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-RSCH-v1.0",
+        "to": "ARC-001-REQ",
         "type": "references"
       }
     ]

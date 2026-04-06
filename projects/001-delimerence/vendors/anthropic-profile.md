@@ -1,0 +1,105 @@
+# Vendor Profile: Anthropic
+
+> **Template Origin**: Official | **ArcKit Version**: 4.6.3 | **Command**: `/arckit:research`
+
+## Document Control
+
+| Field | Value |
+|-------|-------|
+| **Document ID** | anthropic-profile |
+| **Document Type** | Vendor Profile |
+| **Project** | DeLimerence (Project 001) |
+| **Classification** | OFFICIAL |
+| **Status** | DRAFT |
+| **Version** | 1.0 |
+| **Created Date** | 2026-04-06 |
+| **Last Modified** | 2026-04-06 |
+| **Review Cycle** | On-Demand |
+| **Next Review Date** | 2026-10-06 |
+| **Owner** | Mark Craddock, Product Owner |
+| **Reviewed By** | PENDING |
+| **Approved By** | PENDING |
+| **Distribution** | Project team |
+| **Source Research** | ARC-001-RSCH-v1.0 |
+| **Confidence** | high |
+
+## Revision History
+
+| Version | Date | Author | Changes | Approved By | Approval Date |
+|---------|------|--------|---------|-------------|---------------|
+| 1.0 | 2026-04-06 | ArcKit AI | Initial creation from `/arckit:research` agent | PENDING | PENDING |
+
+---
+
+## Overview
+
+Anthropic is a San Francisco-based AI safety company founded in 2021 by former OpenAI researchers, including Dario and Daniela Amodei. The company develops the Claude family of large language models, distinguished by their Constitutional AI (CAI) training methodology which prioritises safety, helpfulness, and honesty. Anthropic has raised over $15 billion in funding (Series E) with a valuation of approximately $61.5 billion (2025). Claude models are available via direct API, AWS Bedrock, and Google Cloud Vertex AI, with the latter two providing regional data residency options including UK (eu-west-2) and EU endpoints.
+
+## Products & Services
+
+- **Claude Opus 4.6**: Premium tier model ($5/$25 per M input/output tokens) -- highest capability, 1M token context
+- **Claude Sonnet 4.6**: Mid-tier model ($3/$15 per M tokens) -- recommended for production applications balancing cost and capability
+- **Claude Haiku 4.5**: Budget tier model ($1/$5 per M tokens) -- suitable for simple tasks, lower nuance
+- **Batch API**: 50% discount on all models for asynchronous workloads
+- **Prompt Caching**: Cache hits cost 90% less than fresh tokens -- significant savings for system-prompt-heavy applications
+- **Claude for Enterprise**: Team and Enterprise plans with additional security, admin controls, and no training on customer data
+
+## Pricing Model
+
+Token-based usage pricing (pay-per-use). No minimum commitment for API access. Batch API provides 50% discount. Prompt caching reduces costs by up to 90% for repeated system prompt tokens. AWS Bedrock regional endpoints carry 10% premium over global endpoints. Committed use pricing available through AWS Savings Plans (up to 35% discount).
+
+LLM API prices have been declining approximately 80% year-over-year across the industry. Current pricing (April 2026):
+
+| Model | Input (per M tokens) | Output (per M tokens) |
+|-------|---------------------|----------------------|
+| Claude Opus 4.6 | $5.00 | $25.00 |
+| Claude Sonnet 4.6 | $3.00 | $15.00 |
+| Claude Haiku 4.5 | $1.00 | $5.00 |
+
+## UK Government Presence
+
+- G-Cloud listed: Unknown (accessible via AWS Bedrock which is G-Cloud listed)
+- DOS listed: Unknown
+- UK data centres: Yes, via AWS Bedrock eu-west-2 (London) regional endpoint. Google Cloud Vertex AI europe-west2 (London) also available.
+
+## Strengths
+
+- Constitutional AI training methodology produces the most safety-aware responses of any frontier model
+- Strong system prompt adherence -- critical for applications requiring strict behavioural constraints
+- Zero-retention data processing agreement available (no request/response data stored at rest)
+- Updated DPA automatically covers GDPR (including UK GDPR) as of January 2026
+- ISO 27001:2022 and ISO 42001 (AI Management System) certified
+- SOC 2 Type I and Type II certified
+- 1M token context window at standard pricing (no long-context surcharge)
+- UK data residency achievable via AWS Bedrock eu-west-2 or Vertex AI europe-west2
+- Prompt caching dramatically reduces costs for system-prompt-heavy applications
+- Active model development with regular capability improvements
+
+## Weaknesses
+
+- No direct Anthropic UK inference endpoint (must use Bedrock or Vertex AI for UK data residency)
+- Bedrock regional endpoints carry 10% price premium
+- Model updates may change safety and conversational characteristics without notice
+- Smaller ecosystem than OpenAI (fewer third-party integrations and tutorials)
+- Relatively young company (founded 2021) -- though well-funded
+- Enterprise support primarily through cloud provider (AWS/GCP) rather than direct
+
+## Projects Referenced In
+
+- DeLimerence (Project 001) -- LLM Foundation Model provider (recommended)
+
+## External References
+
+### Document Register
+
+| Doc ID | Filename | Type | Source Location | Description |
+|--------|----------|------|-----------------|-------------|
+| *None provided* | -- | -- | -- | -- |
+
+---
+
+**Generated by**: ArcKit `/arckit:research` agent
+**Generated on**: 2026-04-06
+**ArcKit Version**: 4.6.3
+**Project**: DeLimerence (Project 001)
+**Model**: Claude Opus 4.6 (1M context)
