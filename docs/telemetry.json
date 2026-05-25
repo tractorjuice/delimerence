@@ -1,6 +1,47 @@
 {
-  "generated": "2026-05-25T06:59:39.737Z",
+  "generated": "2026-05-25T07:09:13.423Z",
   "sessions": [
+    {
+      "ts": "2026-05-25T07:09:13.423Z",
+      "type": "compliance",
+      "isFailure": false,
+      "commits": 1,
+      "filesChanged": 20,
+      "artifacts": [
+        {
+          "project": "001",
+          "categories": {
+            "Governance": [
+              "Analysis Report",
+              "Principles Compliance",
+              "Risk Register",
+              "Traceability Matrix"
+            ],
+            "Compliance": [
+              "Data Protection Impact Assessment"
+            ],
+            "Architecture": [
+              "Architecture Decision Records",
+              "Architecture Principles"
+            ],
+            "Discovery": [
+              "Requirements",
+              "Research Findings",
+              "Stakeholder Analysis"
+            ],
+            "Planning": [
+              "Strategic Outline Business Case"
+            ]
+          }
+        }
+      ],
+      "effort": "xhigh",
+      "telemetry": {
+        "toolCalls": 42,
+        "p50": 11,
+        "p95": 2803
+      }
+    },
     {
       "ts": "2026-05-25T06:59:39.737Z",
       "type": "general",
