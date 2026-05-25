@@ -1,6 +1,29 @@
 {
-  "generated": "2026-05-25T07:09:13.423Z",
+  "generated": "2026-05-25T07:25:30.731Z",
   "sessions": [
+    {
+      "ts": "2026-05-25T07:25:30.731Z",
+      "type": "failure (server_error)",
+      "isFailure": true,
+      "commits": 0,
+      "filesChanged": 0,
+      "artifacts": [],
+      "effort": "max"
+    },
+    {
+      "ts": "2026-05-25T07:11:45.209Z",
+      "type": "general",
+      "isFailure": false,
+      "commits": 1,
+      "filesChanged": 3,
+      "artifacts": [],
+      "effort": "xhigh",
+      "telemetry": {
+        "toolCalls": 6,
+        "p50": 3217,
+        "p95": 3681
+      }
+    },
     {
       "ts": "2026-05-25T07:09:13.423Z",
       "type": "compliance",
