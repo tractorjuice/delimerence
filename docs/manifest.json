@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T06:58:41.702Z",
+  "generated": "2026-05-25T07:07:21.747Z",
   "repository": {
     "name": "delimerence"
   },
@@ -1119,27 +1119,6 @@
           "category": "Governance",
           "documentId": "ARC-001-TRAC-v1.1",
           "extension": ".md"
-        },
-        {
-          "path": "projects/001-delimerence/clinical-safety/HAZARD-LOG.md",
-          "title": "HAZARD-LOG",
-          "category": "Clinical Safety",
-          "documentId": "HAZARD-LOG",
-          "extension": ".md"
-        },
-        {
-          "path": "projects/001-delimerence/clinical-safety/SAFETY-CASE.md",
-          "title": "Clinical Safety Case Report — DeLimerence",
-          "category": "Clinical Safety",
-          "documentId": "SAFETY-CASE",
-          "extension": ".md"
-        },
-        {
-          "path": "projects/001-delimerence/clinical-safety/SAFETY.md",
-          "title": "Clinical Safety — DeLimerence",
-          "category": "Clinical Safety",
-          "documentId": "SAFETY",
-          "extension": ".md"
         }
       ],
       "decisions": [
@@ -1329,7 +1308,7 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06",
+        "lastModified": "2026-05-25",
         "version": "1.0",
         "owner": "Mark Craddock, Product Owner",
         "classification": "OFFICIAL",
@@ -1343,9 +1322,9 @@
           "Status": "DRAFT",
           "Version": "1.0",
           "Created Date": "2026-04-06",
-          "Last Modified": "2026-04-06",
+          "Last Modified": "2026-05-25",
           "Review Cycle": "Monthly",
-          "Next Review Date": "2026-05-06",
+          "Next Review Date": "2026-06-25",
           "Owner": "Mark Craddock, Product Owner",
           "Reviewed By": "[PENDING]",
           "Approved By": "[PENDING]",
@@ -1399,7 +1378,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 49
+          "ageDays": 0
         }
       },
       "ARC-001-DPIA-v1.0": {
@@ -1410,7 +1389,7 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06",
+        "lastModified": "2026-05-25",
         "version": "1.0",
         "owner": "Mark Craddock, Product Owner",
         "classification": "OFFICIAL-SENSITIVE",
@@ -1424,7 +1403,7 @@
           "Status": "DRAFT",
           "Version": "1.0",
           "Created Date": "2026-04-06",
-          "Last Modified": "2026-04-06",
+          "Last Modified": "2026-05-25",
           "Review Cycle": "Annual (12 months)",
           "Next Review Date": "2027-04-06",
           "Owner": "Mark Craddock, Product Owner",
@@ -1538,7 +1517,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 49
+          "ageDays": 0
         }
       },
       "ARC-001-PRIN-COMP-v1.0": {
@@ -1549,7 +1528,7 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06",
+        "lastModified": "2026-05-25",
         "version": "1.0",
         "owner": "Mark Craddock, Product Owner",
         "classification": "OFFICIAL",
@@ -1563,7 +1542,7 @@
           "Status": "DRAFT",
           "Version": "1.0",
           "Created Date": "2026-04-06",
-          "Last Modified": "2026-04-06",
+          "Last Modified": "2026-05-25",
           "Review Cycle": "Monthly",
           "Next Review Date": "2026-05-06",
           "Owner": "Mark Craddock, Product Owner",
@@ -1620,7 +1599,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 49
+          "ageDays": 0
         }
       },
       "ARC-001-REQ-v1.0": {
@@ -1631,7 +1610,7 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06",
+        "lastModified": "2026-05-25",
         "version": "1.0",
         "owner": "Mark Craddock, Product Owner",
         "classification": "OFFICIAL",
@@ -1645,7 +1624,7 @@
           "Status": "DRAFT",
           "Version": "1.0",
           "Created Date": "2026-04-06",
-          "Last Modified": "2026-04-06",
+          "Last Modified": "2026-05-25",
           "Review Cycle": "Monthly",
           "Next Review Date": "2026-06-25",
           "Owner": "Mark Craddock, Product Owner",
@@ -1721,7 +1700,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 49
+          "ageDays": 0
         }
       },
       "ARC-001-RISK-v1.0": {
@@ -1732,7 +1711,7 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06",
+        "lastModified": "2026-05-25",
         "version": "1.0",
         "owner": "Mark Craddock, Product Owner",
         "classification": "OFFICIAL",
@@ -1746,9 +1725,9 @@
           "Status": "DRAFT",
           "Version": "1.0",
           "Created Date": "2026-04-06",
-          "Last Modified": "2026-04-06",
+          "Last Modified": "2026-05-25",
           "Review Cycle": "Monthly",
-          "Next Review Date": "2026-05-06",
+          "Next Review Date": "2026-06-25",
           "Owner": "Mark Craddock, Product Owner",
           "Reviewed By": "PENDING",
           "Approved By": "PENDING",
@@ -1796,7 +1775,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 49
+          "ageDays": 0
         }
       },
       "ARC-001-SOBC-v1.0": {
@@ -1807,7 +1786,7 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06",
+        "lastModified": "2026-05-25",
         "version": "1.0",
         "owner": "Mark Craddock, Product Owner",
         "classification": "OFFICIAL",
@@ -1821,7 +1800,7 @@
           "Status": "DRAFT",
           "Version": "1.0",
           "Created Date": "2026-04-06",
-          "Last Modified": "2026-04-06",
+          "Last Modified": "2026-05-25",
           "Review Cycle": "Monthly",
           "Next Review Date": "2026-05-06",
           "Owner": "Mark Craddock, Product Owner",
@@ -1902,7 +1881,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 49
+          "ageDays": 0
         }
       },
       "ARC-001-STKE-v1.0": {
@@ -1913,7 +1892,7 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06",
+        "lastModified": "2026-05-25",
         "version": "1.0",
         "owner": "Mark Craddock, Product Owner",
         "classification": "OFFICIAL",
@@ -1927,9 +1906,9 @@
           "Status": "DRAFT",
           "Version": "1.0",
           "Created Date": "2026-04-06",
-          "Last Modified": "2026-04-06",
+          "Last Modified": "2026-05-25",
           "Review Cycle": "Monthly",
-          "Next Review Date": "2026-05-06",
+          "Next Review Date": "2026-06-25",
           "Owner": "Mark Craddock, Product Owner",
           "Reviewed By": "PENDING",
           "Approved By": "PENDING",
@@ -1940,7 +1919,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 49
+          "ageDays": 0
         }
       },
       "ARC-001-TRAC-v1.0": {
@@ -1951,7 +1930,7 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06",
+        "lastModified": "2026-05-25",
         "version": "1.0",
         "owner": "Mark Craddock, Product Owner",
         "classification": "OFFICIAL",
@@ -1965,7 +1944,7 @@
           "Status": "DRAFT",
           "Version": "1.0",
           "Created Date": "2026-04-06",
-          "Last Modified": "2026-04-06",
+          "Last Modified": "2026-05-25",
           "Review Cycle": "Monthly",
           "Next Review Date": "2026-05-06",
           "Owner": "Mark Craddock, Product Owner",
@@ -2030,7 +2009,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 49
+          "ageDays": 0
         }
       },
       "ARC-001-TRAC-v1.1": {
@@ -2041,7 +2020,7 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06",
+        "lastModified": "2026-05-25",
         "version": "1.1",
         "owner": "Mark Craddock, Product Owner",
         "classification": "OFFICIAL",
@@ -2055,7 +2034,7 @@
           "Status": "DRAFT",
           "Version": "1.1",
           "Created Date": "2026-04-06",
-          "Last Modified": "2026-04-06",
+          "Last Modified": "2026-05-25",
           "Review Cycle": "Monthly",
           "Next Review Date": "2026-05-06",
           "Owner": "Mark Craddock, Product Owner",
@@ -2121,7 +2100,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 49
+          "ageDays": 0
         }
       },
       "ARC-001-ADR-001-v1.0": {
@@ -2132,7 +2111,7 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06",
+        "lastModified": "2026-05-25",
         "version": "1.0",
         "owner": "Mark Craddock, Product Owner",
         "classification": "OFFICIAL",
@@ -2146,7 +2125,7 @@
           "Status": "DRAFT",
           "Version": "1.0",
           "Created Date": "2026-04-06",
-          "Last Modified": "2026-04-06",
+          "Last Modified": "2026-05-25",
           "Review Date": "2026-05-06",
           "Owner": "Mark Craddock, Product Owner",
           "Reviewed By": "[PENDING]",
@@ -2173,7 +2152,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 49
+          "ageDays": 0
         }
       },
       "ARC-001-ADR-002-v1.0": {
@@ -2410,7 +2389,7 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06",
+        "lastModified": "2026-05-25",
         "version": "1.0",
         "owner": "Mark Craddock, Product Owner",
         "classification": "OFFICIAL",
@@ -2425,7 +2404,7 @@
           "Status": "DRAFT",
           "Version": "1.0",
           "Created Date": "2026-04-06",
-          "Last Modified": "2026-04-06",
+          "Last Modified": "2026-05-25",
           "Review Cycle": "On Decision Change",
           "Next Review Date": "2026-06-25",
           "Owner": "Mark Craddock, Product Owner",
@@ -2452,7 +2431,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 49
+          "ageDays": 0
         }
       },
       "ARC-001-ADR-007-v1.0": {
@@ -2463,7 +2442,7 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06",
+        "lastModified": "2026-05-25",
         "version": "1.0",
         "owner": "Mark Craddock, Product Owner",
         "classification": "OFFICIAL",
@@ -2478,7 +2457,7 @@
           "Status": "DRAFT",
           "Version": "1.0",
           "Created Date": "2026-04-06",
-          "Last Modified": "2026-04-06",
+          "Last Modified": "2026-05-25",
           "Review Cycle": "On Decision Change",
           "Next Review Date": "2026-06-25",
           "Owner": "Mark Craddock, Product Owner",
@@ -2499,7 +2478,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 49
+          "ageDays": 0
         }
       },
       "ARC-001-ADR-008-v1.0": {
@@ -2510,7 +2489,7 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06",
+        "lastModified": "2026-05-25",
         "version": "1.0",
         "owner": "Mark Craddock, Product Owner",
         "classification": "OFFICIAL",
@@ -2525,7 +2504,7 @@
           "Status": "DRAFT",
           "Version": "1.0",
           "Created Date": "2026-04-06",
-          "Last Modified": "2026-04-06",
+          "Last Modified": "2026-05-25",
           "Review Cycle": "On Decision Change",
           "Next Review Date": "2026-06-25",
           "Owner": "Mark Craddock, Product Owner",
@@ -2549,7 +2528,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 49
+          "ageDays": 0
         }
       },
       "ARC-001-RSCH-v1.0": {
@@ -2560,7 +2539,7 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06",
+        "lastModified": "2026-05-25",
         "version": "1.0",
         "owner": "Mark Craddock, Product Owner",
         "classification": "OFFICIAL",
@@ -2574,7 +2553,7 @@
           "Status": "DRAFT",
           "Version": "1.0",
           "Created Date": "2026-04-06",
-          "Last Modified": "2026-04-06",
+          "Last Modified": "2026-05-25",
           "Review Cycle": "Quarterly",
           "Next Review Date": "2026-07-06",
           "Owner": "Mark Craddock, Product Owner",
@@ -2638,7 +2617,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 49
+          "ageDays": 0
         }
       },
       "ARC-001-RSCH-v2.0": {
@@ -2649,7 +2628,7 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06",
+        "lastModified": "2026-05-25",
         "version": "2.0",
         "owner": "Mark Craddock, Product Owner",
         "classification": "OFFICIAL",
@@ -2663,7 +2642,7 @@
           "Status": "DRAFT",
           "Version": "2.0",
           "Created Date": "2026-04-06",
-          "Last Modified": "2026-04-06",
+          "Last Modified": "2026-05-25",
           "Review Cycle": "Quarterly",
           "Next Review Date": "2026-07-06",
           "Owner": "Mark Craddock, Product Owner",
@@ -2700,7 +2679,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 49
+          "ageDays": 0
         }
       }
     },
@@ -3203,7 +3182,7 @@
     ]
   },
   "projectHealth": {
-    "baseline": "2026-05-25T06:58:41.717Z",
+    "baseline": "2026-05-25T07:07:21.773Z",
     "staleThresholdDays": 90,
     "essentialTypes": [
       {
