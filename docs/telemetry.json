@@ -1,0 +1,31 @@
+{
+  "generated": "2026-05-25T06:45:50.775Z",
+  "sessions": [
+    {
+      "ts": "2026-05-25T06:45:50.775Z",
+      "type": "architecture",
+      "isFailure": false,
+      "commits": 1,
+      "filesChanged": 67,
+      "artifacts": [
+        {
+          "project": "001",
+          "categories": {
+            "Discovery": [
+              "Requirements"
+            ],
+            "Architecture": [
+              "Architecture Decision Records"
+            ]
+          }
+        }
+      ],
+      "effort": "xhigh",
+      "telemetry": {
+        "toolCalls": 29,
+        "p50": 73,
+        "p95": 2914
+      }
+    }
+  ]
+}

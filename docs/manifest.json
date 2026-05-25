@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T06:43:30.820Z",
+  "generated": "2026-05-25T06:58:41.702Z",
   "repository": {
     "name": "delimerence"
   },
@@ -1118,6 +1118,27 @@
           "title": "Traceability Matrix",
           "category": "Governance",
           "documentId": "ARC-001-TRAC-v1.1",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-delimerence/clinical-safety/HAZARD-LOG.md",
+          "title": "HAZARD-LOG",
+          "category": "Clinical Safety",
+          "documentId": "HAZARD-LOG",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-delimerence/clinical-safety/SAFETY-CASE.md",
+          "title": "Clinical Safety Case Report — DeLimerence",
+          "category": "Clinical Safety",
+          "documentId": "SAFETY-CASE",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-delimerence/clinical-safety/SAFETY.md",
+          "title": "Clinical Safety — DeLimerence",
+          "category": "Clinical Safety",
+          "documentId": "SAFETY",
           "extension": ".md"
         }
       ],
@@ -3182,7 +3203,7 @@
     ]
   },
   "projectHealth": {
-    "baseline": "2026-05-25T06:43:30.836Z",
+    "baseline": "2026-05-25T06:58:41.717Z",
     "staleThresholdDays": 90,
     "essentialTypes": [
       {
