@@ -1,14 +1,13 @@
 {
   "enabledPlugins": {
-    "arckit@arc-kit": true,
+    "arckit@arckit-claude": true,
     "arckit-uk-nhs@arc-kit": true
   },
   "extraKnownMarketplaces": {
-    "arc-kit": {
+    "arckit-claude": {
       "source": {
         "source": "github",
-        "repo": "tractorjuice/arc-kit",
-        "ref": "feat/424-uk-nhs-overlay"
+        "repo": "tractorjuice/arckit-claude"
       }
     }
   }
